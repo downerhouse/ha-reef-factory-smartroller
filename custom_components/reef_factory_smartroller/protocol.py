@@ -108,17 +108,11 @@ def build_message(
 def parse_smartroller_report(payload: bytes) -> dict:
     """Parse Smart Roller telemetry payload."""
 
-    _LOGGER.warning(
-        payload[0],
-        payload[1],
-        payload[2],
-        payload[3],
-        payload[4],
-        payload[5],
-        payload[6],
-        payload[7],
+    _LOGGER.debug(
+        "SMART ROLLER PAYLOAD %s",
+        payload.hex(),
     )
-
+    
     roller_status = (
         "Jammed"
         if payload[0] == 2

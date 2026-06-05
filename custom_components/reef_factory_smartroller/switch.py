@@ -1,4 +1,4 @@
-"""Switch platform for Reef Factory pH Meter sound control."""
+"""Switch platform for Reef Factory Smart Roller."""
 
 from __future__ import annotations
 

@@ -1,8 +1,8 @@
 {
   "domain": "reef_factory_smartroller",
   "name": "Reef Factory Smart Roller",
-  "version": "1.0.0",
-  "documentation": "https://github.com/YOUR_GITHUB_USERNAME/ha-reef-factory-smartroller",
+  "version": "1.0.1",
+  "documentation": "https://github.com/downerhouse/ha-reef-factory-smartroller",
   "codeowners": [
     "@downerhouse"
   ],
